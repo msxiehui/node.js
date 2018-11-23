@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>8848</title>
+</head>
+<body>
+        <div class='city_select' id="city_1">
+            <select class='prov city_select' name="prov" id="prov">
+                <option value="0">省 份</option>
+            </select>
+            <select class='city city_select' name="city" id="city">
+                <option value="0">城 市</option>
+            </select>
+            <select class='dist city_select' name="dist" id="dist">
+                <option va  lue="0">经销商</option>
+            </select>
+            <select class='cars city_select' name="cars" id="cars">
+                <option va  lue="0">车型</option>
+            </select>
+        </div>
+        
+        
+        <script src="jquery-1.11.3.js"></script>
+        <script src="iforce.cityselect.js"></script>
+        <script>
+            
+
+        $(function() {
+            $("#city_1").citySelect({
+                url: "t.json",
+                 prov:"山西",
+                 city:"太原",
+                 dist:"49",
+                 cars:"哈哈",
+                required:true
+            });
+        })
+
+        </script>
+
+
+</body>
+
+
+</html>

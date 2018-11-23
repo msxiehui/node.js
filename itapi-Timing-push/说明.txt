@@ -1,0 +1,25 @@
+pm2 模块 进程守护
+
+
+https://blog.csdn.net/kingov/article/details/79304032
+
+
+node-schedule
+
+定时器
+
+https://blog.csdn.net/zzwwjjdj1/article/details/51898257
+
+
+
+
+流程说明：
+定时器 1   每小时执行，获取今天剩余数量
+
+定时器2   每分钟执行  处理
+
+
+
+
+
+
